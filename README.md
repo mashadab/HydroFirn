@@ -14,7 +14,7 @@ dynamically among:
 The model is developed in the companion article, currently under **minor
 revision at the *Journal of Glaciology***:
 
-> Shadab MA, Adhikari S, Stevens CM, Rennermalm AK, Xiao J, Hesse MA.
+> Shadab MA, Adhikari S, Stevens CM, Rennermalm AK, Xiao J, Hesse MA, Maxwell RM.
 > **“HydroFirn: A numerical model for large-scale multidimensional firn
 > hydrology.”** *arXiv preprint* [arXiv:2604.11488](https://arxiv.org/abs/2604.11488).
 > 2026 Apr 13.
@@ -280,7 +280,7 @@ The article is currently under **minor revision at the *Journal of
 Glaciology***. Please use the arXiv citation:
 
 ```text
-Shadab MA, Adhikari S, Stevens CM, Rennermalm AK, Xiao J, Hesse MA.
+Shadab MA, Adhikari S, Stevens CM, Rennermalm AK, Xiao J, Hesse MA and Maxwell RM.
 HydroFirn: A numerical model for large-scale multidimensional firn
 hydrology. arXiv preprint arXiv:2604.11488. 2026 Apr 13.
 ```
