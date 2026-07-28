@@ -27,15 +27,13 @@ below.
 
 ### 1. Supplementary Video S1 — firn aquifer migration
 
-<video
-  src="./cover/videos/S1_three_contours_plus_scaling_panels_no-conduction.mp4"
-  controls
-  width="100%">
-</video>
 
-[Open or download Supplementary Video S1](cover/videos/S1_three_contours_plus_scaling_panels_no-conduction.mp4)
 
-S1 corresponds to the two-dimensional verification problem in **Section 4.2
+https://github.com/user-attachments/assets/55256d24-5765-43b4-b5eb-1ae83ada36b1
+
+
+
+The video corresponds to the two-dimensional verification problem in **Section 4.2
 and Figure 5** of the manuscript. It shows the lateral expansion of a
 temperate firn aquifer into otherwise dry firn initially at -30 °C, over an
 impermeable base, in the no-conduction limit. The animation combines numerical
@@ -54,9 +52,13 @@ The associated experiment and plotting code is
   width="100%">
 </video>
 
-[Open or download Supplementary Video S2](cover/videos/SIVideo_DYE-2.mp4)
 
-S2 corresponds to the field-scale experiment in **Section 5 and Figure 6** of
+
+https://github.com/user-attachments/assets/17093959-fa4c-4cb9-b5b6-4dae68e4a808
+
+
+
+Video corresponds to the field-scale experiment in **Section 5 and Figure 6** of
 the manuscript. It shows simulated meltwater infiltration and refreezing at
 the DYE-2 site in southwest Greenland during the 2016 melt season. The
 heterogeneous case superposes a correlated random field with amplitude
