@@ -1,0 +1,19 @@
+ReadMe.txt (text/plain; charset=US-ASCII) 4941 bytes.
+RetMIP_initial_firn_density_Dye-2_16.tab (text/plain; charset=US-ASCII) 10040 bytes.
+RetMIP_initial_firn_density_Dye-2_long.tab (text/plain; charset=US-ASCII) 8343 bytes.
+RetMIP_initial_firn_density_FA.tab (text/plain; charset=US-ASCII) 13342 bytes.
+RetMIP_initial_firn_density_KAN-U.tab (text/plain; charset=US-ASCII) 14001 bytes.
+RetMIP_initial_firn_density_Summit.tab (text/plain; charset=US-ASCII) 8161 bytes.
+RetMIP_initial_firn_lwc_Dye-2_16.tab (text/plain; charset=US-ASCII) 5196 bytes.
+RetMIP_initial_firn_lwc_FA.tab (text/plain; charset=US-ASCII) 8947 bytes.
+RetMIP_initial_firn_temperature_Dye-2_16.tab (text/plain; charset=US-ASCII) 14735 bytes.
+RetMIP_initial_firn_temperature_Dye-2_long.tab (text/plain; charset=US-ASCII) 14568 bytes.
+RetMIP_initial_firn_temperature_FA.tab (text/plain; charset=US-ASCII) 13138 bytes.
+RetMIP_initial_firn_temperature_KAN-U.tab (text/plain; charset=US-ASCII) 14274 bytes.
+RetMIP_initial_firn_temperature_Summit.tab (text/plain; charset=US-ASCII) 13998 bytes.
+RetMIP_Protocol_20082018.pdf (application/pdf) 530895 bytes.
+RetMIP_surface_forcing_Dye-2_16.tab (text/plain; charset=US-ASCII) 89825 bytes.
+RetMIP_surface_forcing_Dye-2_long.tab (text/plain; charset=US-ASCII) 2991707 bytes.
+RetMIP_surface_forcing_FA.tab (text/plain; charset=US-ASCII) 116827 bytes.
+RetMIP_surface_forcing_KANU.tab (text/plain; charset=US-ASCII) 832666 bytes.
+RetMIP_surface_forcing_Summit.tab (text/plain; charset=US-ASCII) 2538227 bytes.
