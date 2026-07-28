@@ -29,8 +29,8 @@ below.
 
 ![HydroFirn simulation of saturation, temperature, porosity, and dynamic cell classification](cover/photos/schematic_figure_nodiff_-30C_new_4x3_multiphysics.png)
 
-This schematic corresponds to the numerical demonstration in **Section 3 and
-Figure 3** of the manuscript. Three initially saturated water bodies drain
+This schematic corresponds to **Figure 3** of the manuscript. Three initially
+saturated water bodies drain
 through otherwise dry firn at -30 °C in a 200 m × 200 m domain containing two
 impermeable ice layers. Columns show the evolving solution at 0, 1, and 24
 hours; rows show water saturation, temperature, porosity, and the numerical
@@ -55,8 +55,8 @@ https://github.com/user-attachments/assets/55256d24-5765-43b4-b5eb-1ae83ada36b1
 
 
 
-The video corresponds to the two-dimensional verification problem in **Section 4.2
-and Figure 5** of the manuscript. It shows the lateral expansion of a
+The video corresponds to the two-dimensional verification problem in **Figure
+5** of the manuscript. It shows the lateral expansion of a
 temperate firn aquifer into otherwise dry firn initially at -30 °C, over an
 impermeable base, in the no-conduction limit. The animation combines numerical
 water saturation, temperature, and porosity with the semi-analytical
@@ -72,8 +72,8 @@ https://github.com/user-attachments/assets/17093959-fa4c-4cb9-b5b6-4dae68e4a808
 
 
 
-The video corresponds to the field-scale experiment in **Section 5 and Figure 6** of
-the manuscript. It shows simulated meltwater infiltration and refreezing at
+The video corresponds to the field-scale experiment in **Figure 6** of the
+manuscript. It shows simulated meltwater infiltration and refreezing at
 the DYE-2 site in southwest Greenland during the 2016 melt season. The
 heterogeneous case superposes a correlated random field with amplitude
 `A = 0.05` and horizontal correlation length `θx = 4 km` on the measured
