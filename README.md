@@ -23,6 +23,26 @@ below.
 
 ---
 
+## HydroFirn in action: coupled flow, heat, and phase change
+
+![HydroFirn simulation of saturation, temperature, porosity, and dynamic cell classification](cover/photos/schematic_figure_nodiff_-30C_new_4x3_multiphysics.png)
+
+This schematic corresponds to the numerical demonstration in **Section 3 and
+Figure 3** of the manuscript. Three initially saturated water bodies drain
+through otherwise dry firn at -30 °C in a 200 m × 200 m domain containing two
+impermeable ice layers. Columns show the evolving solution at 0, 1, and 24
+hours; rows show water saturation, temperature, porosity, and the numerical
+classification used by CIMPEC. Saturated cells and their moving boundaries
+are shown in red, impermeable ice-layer cells and boundaries in blue, and
+unsaturated cells in green. The example illustrates how HydroFirn confines
+the implicit pressure solve to dynamically identified saturated subdomains
+while preventing advective water transport through ice layers.
+
+The associated experiment and plotting code is
+[`src/3_schematic_simulation.py`](src/3_schematic_simulation.py).
+
+---
+
 ## Supplementary media
 
 ### 1. Supplementary Video S1 — firn aquifer migration
@@ -46,19 +66,11 @@ The associated experiment and plotting code is
 
 ### 2. Supplementary Video S2 — DYE-2 melt season
 
-<video
-  src="./cover/videos/SIVideo_DYE-2.mp4"
-  controls
-  width="100%">
-</video>
-
-
-
 https://github.com/user-attachments/assets/17093959-fa4c-4cb9-b5b6-4dae68e4a808
 
 
 
-Video corresponds to the field-scale experiment in **Section 5 and Figure 6** of
+The video corresponds to the field-scale experiment in **Section 5 and Figure 6** of
 the manuscript. It shows simulated meltwater infiltration and refreezing at
 the DYE-2 site in southwest Greenland during the 2016 melt season. The
 heterogeneous case superposes a correlated random field with amplitude
