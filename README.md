@@ -11,11 +11,13 @@ dynamically among:
 - pressure-driven saturated flow and firn aquifers; and
 - impermeable ice layers formed by refreezing and pore close-off.
 
-The model is developed in the companion manuscript:
+The model is developed in the companion article, currently under **minor
+revision at the *Journal of Glaciology***:
 
-> M. A. Shadab, S. Adhikari, C. M. Stevens, Å. K. Rennermalm, J. Xiao,
-> M. A. Hesse, and R. M. Maxwell, **“HydroFirn: A numerical model for
-> large-scale multidimensional firn hydrology.”** Manuscript in preparation.
+> Shadab MA, Adhikari S, Stevens CM, Rennermalm AK, Xiao J, Hesse MA.
+> **“HydroFirn: A numerical model for large-scale multidimensional firn
+> hydrology.”** *arXiv preprint* [arXiv:2604.11488](https://arxiv.org/abs/2604.11488).
+> 2026 Apr 13.
 
 This repository contains the manuscript experiment scripts, numerical
 operators, DYE-2 percolation-depth data, and the supplementary media shown
@@ -274,18 +276,17 @@ Correspondence: Mohammad Afzal Shadab
 
 ## Citation
 
-The manuscript is in preparation. Until a DOI and final bibliographic record
-are available, cite the software and manuscript together as:
+The article is currently under **minor revision at the *Journal of
+Glaciology***. Please use the arXiv citation:
 
 ```text
-Shadab, M. A., Adhikari, S., Stevens, C. M., Rennermalm, Å. K.,
-Xiao, J., Hesse, M. A., and Maxwell, R. M. HydroFirn: A numerical
-model for large-scale multidimensional firn hydrology. Manuscript in
-preparation.
+Shadab MA, Adhikari S, Stevens CM, Rennermalm AK, Xiao J, Hesse MA.
+HydroFirn: A numerical model for large-scale multidimensional firn
+hydrology. arXiv preprint arXiv:2604.11488. 2026 Apr 13.
 ```
 
-Please replace this provisional citation with the final journal citation when
-the article is published.
+Please replace the preprint citation with the final journal citation after
+publication.
 
 ## License
 
