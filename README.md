@@ -285,9 +285,6 @@ HydroFirn: A numerical model for large-scale multidimensional firn
 hydrology. arXiv preprint arXiv:2604.11488. 2026 Apr 13.
 ```
 
-Please replace the preprint citation with the final journal citation after
-publication.
-
 ## License
 
 HydroFirn is distributed under the terms in [`LICENSE`](LICENSE).
