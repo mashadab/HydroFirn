@@ -25,7 +25,7 @@ below.
 
 ---
 
-## HydroFirn in action: coupled flow, heat, and phase change
+## HydroFirn in action: coupled variably saturated flow, heat transfer, and phase change
 
 ![HydroFirn simulation of saturation, temperature, porosity, and dynamic cell classification](cover/photos/schematic_figure_nodiff_-30C_new_4x3_multiphysics.png)
 
