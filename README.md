@@ -211,8 +211,6 @@ colliander_data_analysis.py
 Barenblatt_cartesian.py
 ```
 
-**Figure 11 can be regenerated directly** from the
-included CSV.
 
 ## Quick start: regenerate the intercomparison
 
