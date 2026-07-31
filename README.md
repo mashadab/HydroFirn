@@ -211,10 +211,7 @@ colliander_data_analysis.py
 Barenblatt_cartesian.py
 ```
 
-Several manuscript plotting blocks also load precomputed `.npz` simulation
-products that are not archived, and parts of the DYE-2 script refer to
-machine-specific absolute data paths. These limitations affect the main
-simulation scripts, but **Figure 11 can be regenerated directly** from the
+**Figure 11 can be regenerated directly** from the
 included CSV.
 
 ## Quick start: regenerate the intercomparison
