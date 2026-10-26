@@ -1,0 +1,22 @@
+{
+  "source": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_aquifer_height_250m.tif",
+  "source_sha256": "c1bd35f4b0f2e083c26c98905924d264f8a14e19aad3dcefb1676169d693b0a2",
+  "output": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_aquifer_height_zoom.png",
+  "quantity": "Saturated thickness h, metres",
+  "crs": "EPSG:32624",
+  "view_bounds_utm_m": {
+    "west": 478500.0,
+    "east": 495750.0,
+    "south": 7340750.0,
+    "north": 7362750.0
+  },
+  "buffer_m": 2000.0,
+  "all_prior_reconstruction_cells_visible": true,
+  "color_limits_m": [
+    0,
+    40.0
+  ],
+  "resampling_of_height": "none; nearest-neighbor display of original cells",
+  "field_changed": false,
+  "simulation_performed": false
+}

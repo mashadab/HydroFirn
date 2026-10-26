@@ -1,0 +1,68 @@
+{
+  "name": "Feature I panel B: zero-outside initial test case",
+  "quantity": "initial saturated aquifer thickness h0, metres",
+  "source": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_aquifer_height_250m.tif",
+  "source_sha256": "c1bd35f4b0f2e083c26c98905924d264f8a14e19aad3dcefb1676169d693b0a2",
+  "source_zoom_metadata": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_aquifer_height_zoom_metadata.json",
+  "source_reconstruction_modified": false,
+  "assumption": "Retain reconstructed patch heights; set h0=0 in every other domain cell, including holes and buffer.",
+  "interpretation_of_zero": "Assumed dry initial condition for a test case; not observed absence of water.",
+  "crs": "EPSG:32624",
+  "bounds_utm_m": {
+    "west": 478500.0,
+    "east": 495750.0,
+    "south": 7340750.0,
+    "north": 7362750.0
+  },
+  "resolution_m": [
+    250.0,
+    250.0
+  ],
+  "shape_yx": [
+    88,
+    69
+  ],
+  "domain_area_km2": 379.5,
+  "reconstructed_positive_cells": 692,
+  "assumed_zero_cells": 5380,
+  "initial_wet_area_km2": 43.25,
+  "initial_bulk_aquifer_volume_m3": 291905440.2112961,
+  "volume_interpretation": "Bulk saturated-layer volume; water volume requires porosity.",
+  "retained_positive_height_range_m": [
+    4.10385274887085,
+    21.804189682006836
+  ],
+  "color_limits_m": [
+    0.0,
+    25.0
+  ],
+  "resampling": "none; exact aligned cell copy",
+  "geotiff": {
+    "path": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/feature1_test_case/feature1_initial_height_250m.tif",
+    "zero_is_valid_data": true,
+    "nodata": null,
+    "row_order": "north to south"
+  },
+  "npz": {
+    "path": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/feature1_test_case/feature1_initial_height.npz",
+    "field": "h0_m",
+    "axes": "[y, x]",
+    "row_order": "south to north",
+    "coordinates": "Cell centres; x_m/y_m relative to utm_origin_m.",
+    "provenance": "reconstructed_patch_mask: true=retained patch, false=assumed zero"
+  },
+  "preview": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/feature1_test_case/feature1_initial_height.png",
+  "simulation_performed": false,
+  "validation": {
+    "all_cells_finite": true,
+    "all_outside_cells_exactly_zero": true,
+    "patch_values_exactly_preserved": true,
+    "all_source_patches_retained": true,
+    "initial_bulk_volume_preserved": true,
+    "outermost_cells_zero": true,
+    "geotiff_and_npz_round_trip_passed": true
+  },
+  "display_colormap": "YlGnBu",
+  "zero_display_color": "#eef2f5",
+  "zero_display": "Separate pale class; masked only in the positive-height display overlay."
+}

@@ -1,0 +1,42 @@
+{
+  "boundary_vertices": 1966,
+  "boundary_triangles": 3896,
+  "edges_not_shared_by_exactly_two_faces": 0,
+  "edges_with_inconsistent_face_orientation": 0,
+  "degenerate_faces": 0,
+  "signed_volume_m3": 291905440.22285575,
+  "independent_thickness_integral_m3": 291905440.22285247,
+  "relative_mesh_volume_error": 1.1230539109321604e-14,
+  "maximum_surface_ordering_violation_m": 0.0,
+  "minimum_water_table_depth_m": 6.89494500757666,
+  "maximum_interpolant_recovery_error_thickness_m": 1.2595258169767476e-11,
+  "maximum_interpolant_recovery_error_depth_m": 1.1546319456101628e-13,
+  "maximum_coordinate_roundtrip_error_deg": 2.842170943040401e-14,
+  "thickness_spatial_cross_validation": {
+    "method": "5 folds, deterministic 2 km spatial blocks; same interpolation support limits",
+    "total_points": 4578,
+    "predicted_points": 3077,
+    "coverage_fraction": 0.6721275666229795,
+    "rmse_m": 6.1454757427150835,
+    "mae_m": 4.409620648540619,
+    "bias_m": -2.183988279403415,
+    "interpretation": "Interpolation diagnostic; not independent field validation or a confidence interval."
+  },
+  "depth_spatial_cross_validation": {
+    "method": "5 folds, deterministic 2 km spatial blocks; same interpolation support limits",
+    "total_points": 1104,
+    "predicted_points": 764,
+    "coverage_fraction": 0.6920289855072463,
+    "rmse_m": 2.1080594356923696,
+    "mae_m": 1.556115270937434,
+    "bias_m": 0.14075507417024197,
+    "interpretation": "Interpolation diagnostic; not independent field validation or a confidence interval."
+  },
+  "source_ELEV_minus_GIMP_m": {
+    "count": 1104,
+    "mean": 1.8647992272125005,
+    "median": 1.6619583445707349,
+    "rmse": 2.0346664694736014,
+    "max_abs": 5.256989634250431
+  }
+}

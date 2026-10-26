@@ -1,0 +1,68 @@
+{
+  "source_elevation": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_gimp_surface_30m.tif",
+  "source_slopes": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_gimp_xy_slopes_degrees.tif",
+  "source_elevation_sha256": "76769fc3fc28091e35415c39332970de924fa02d4581fe432d70e4ca5d5049a7",
+  "output": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/feature1_test_case/feature1_elevation_xy_slopes.png",
+  "crs": "EPSG:32624",
+  "view_bounds_utm_m": {
+    "west": 478500.0,
+    "east": 495750.0,
+    "south": 7340750.0,
+    "north": 7362750.0
+  },
+  "native_crop_bounds_utm_m": {
+    "west": 478500.0,
+    "south": 7340730.0,
+    "east": 495750.0,
+    "north": 7362750.0
+  },
+  "grid_spacing_m": 30,
+  "crop_shape_yx": [
+    734,
+    575
+  ],
+  "display_note": "Native 30 m cells cover the view; axes clip to the exact test-case extent. No resampling.",
+  "elevation_reference": "WGS84 ellipsoid",
+  "nominal_dem_epoch": 2007,
+  "slope_formulas": {
+    "x": "degrees(arctan(dz/dx))",
+    "y": "degrees(arctan(dz/dy))"
+  },
+  "positive_directions": {
+    "x": "UTM grid east",
+    "y": "UTM grid north"
+  },
+  "slope_method": "Second-order centered finite differences over 60 m; no smoothing; one-pixel exterior rim left nodata",
+  "elevation_m": {
+    "min": 1507.754638671875,
+    "max": 1769.290771484375,
+    "median": 1655.263916015625
+  },
+  "x_slope_degrees": {
+    "min": -4.127068042755127,
+    "max": 1.3467016220092773,
+    "median": -0.6786304116249084
+  },
+  "y_slope_degrees": {
+    "min": -3.3126792907714844,
+    "max": 1.621618390083313,
+    "median": -0.08253048360347748
+  },
+  "elevation_color_limits_m": [
+    1500,
+    1800
+  ],
+  "slope_color_limits_degrees": [
+    -3,
+    3
+  ],
+  "x_fraction_color_saturated": 0.0021277099869683688,
+  "y_fraction_color_saturated": 0.00029143466413932,
+  "input_data_changed": false,
+  "validation": {
+    "slope_source_dem_hash_matches": true,
+    "direct_central_difference_checks": true,
+    "all_view_pixels_finite": true,
+    "exact_test_case_view_bounds": true
+  }
+}

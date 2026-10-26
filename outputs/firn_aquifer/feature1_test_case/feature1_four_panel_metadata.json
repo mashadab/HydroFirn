@@ -1,0 +1,66 @@
+{
+  "output": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/feature1_test_case/feature1_four_panel.png",
+  "layout": "2 rows x 2 columns",
+  "panel_order": [
+    "Feature I initial aquifer height",
+    "GIMP surface elevation",
+    "x slope",
+    "y slope"
+  ],
+  "view_bounds_utm_m": {
+    "west": 478500.0,
+    "east": 495750.0,
+    "south": 7340750.0,
+    "north": 7362750.0
+  },
+  "crs": "EPSG:32624",
+  "source_sha256": {
+    "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/feature1_test_case/feature1_initial_height_250m.tif": "5333a2c1e3a78556591f2f241cc03dddf3c6525474850866081e4c76b7aaf8ff",
+    "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_gimp_surface_30m.tif": "76769fc3fc28091e35415c39332970de924fa02d4581fe432d70e4ca5d5049a7",
+    "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_gimp_xy_slopes_degrees.tif": "91ba8c6cfed89f89a7a3adeb25cd2ac4f7e3122c53244be47c4b9e6ac63274dc"
+  },
+  "source_elevation_documentation": "https://nsidc.org/data/nsidc-0645/versions/1",
+  "aquifer_height_grid_m": 250,
+  "elevation_and_slope_grid_m": 30,
+  "height_color_limits_m": [
+    0,
+    25
+  ],
+  "elevation_color_limits_m": [
+    1500,
+    1800
+  ],
+  "slope_color_limits_degrees": [
+    -3,
+    3
+  ],
+  "zero_display_color": "#eef2f5",
+  "zero_interpretation": "Assumed dry initial condition outside reconstructed patches",
+  "elevation_reference": "WGS84 ellipsoid",
+  "nominal_dem_epoch": 2007,
+  "angle_formulas": {
+    "x": "degrees(arctan(dz/dx))",
+    "y": "degrees(arctan(dz/dy))"
+  },
+  "slope_method": "Second-order centered finite differences over 60 m; no smoothing; one-pixel exterior rim left nodata",
+  "validation": {
+    "all_four_panels_same_view": true,
+    "all_inputs_unchanged": true,
+    "elevation_matches_slope_source": true,
+    "all_display_fields_finite": true
+  },
+  "resampling": "none; native fields displayed with nearest-neighbour interpolation",
+  "font_family": "DejaVu Sans",
+  "heading_weight": "semibold",
+  "all_visible_text_fonts_verified": true,
+  "font_reference": "src/extract_montgomery_surface_transect.py and its SVG export (DejaVu Sans)",
+  "heading": "Feature I",
+  "panel_titles": [
+    "(a)  Aquifer height",
+    "(b)  Surface elevation",
+    "(c)  x slope",
+    "(d)  y slope"
+  ],
+  "subtitle_removed": true,
+  "explanatory_footer_removed": true
+}

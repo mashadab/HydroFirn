@@ -1,0 +1,280 @@
+{
+  "source": "Montgomery et al. (2017), Figure 4 and Table 1, p. 6; DOI 10.3389/feart.2017.00010",
+  "year": 2016,
+  "horizontal_coordinate": "x = 1000 D; x increases inland/upglacier",
+  "precision": "Top and base depths are graphical estimates rounded to 0.5 m, not exact field measurements.",
+  "site5_choice": "Use Figure 4 top and base consistently. Retain Table 1 H=17 m separately; do not substitute it for the graphical thickness.",
+  "top_dashed_segment_boxes_px": {
+    "1-2": [
+      170,
+      245,
+      300,
+      330
+    ],
+    "2-3": [
+      325,
+      410,
+      270,
+      300
+    ],
+    "3-4": [
+      495,
+      516,
+      280,
+      305
+    ],
+    "4-5": [
+      600,
+      635,
+      250,
+      285
+    ],
+    "5-6": [
+      730,
+      825,
+      240,
+      260
+    ],
+    "7-8": [
+      980,
+      1055,
+      248,
+      265
+    ],
+    "8-10": [
+      1140,
+      1200,
+      242,
+      262
+    ],
+    "10-11": [
+      1285,
+      1315,
+      207,
+      240
+    ],
+    "11-12": [
+      1398,
+      1413,
+      160,
+      200
+    ]
+  },
+  "top_dashed_segment_line_fits": {
+    "1-2": [
+      -0.19930824705922476,
+      355.28744766872876
+    ],
+    "2-3": [
+      -0.1862775817540643,
+      351.9285130722881
+    ],
+    "3-4": [
+      0.145161290322581,
+      216.20967741935456
+    ],
+    "4-5": [
+      -0.274766294468969,
+      434.62886263308224
+    ],
+    "5-6": [
+      -0.05402453789488458,
+      292.4958046675948
+    ],
+    "7-8": [
+      -0.0372287341168167,
+      294.598019790106
+    ],
+    "8-10": [
+      -0.030289757481358977,
+      287.18269232737225
+    ],
+    "10-11": [
+      -0.3442835462248687,
+      665.912862021
+    ],
+    "11-12": [
+      -0.4812512142995874,
+      846.0495434233471
+    ]
+  },
+  "base_digitization_file": "montgomery2017_figure4_digitization_metadata.json",
+  "stations": [
+    {
+      "site": "12 (a)",
+      "year": 2016,
+      "D_km": 0.41,
+      "x_m": 410.0,
+      "surface_elevation_m_asl": 1518.0,
+      "top_depth_est_m": 10.5,
+      "base_depth_est_m": 31.0,
+      "top_elevation_est_m_asl": 1507.5,
+      "base_elevation_est_m_asl": 1487.0,
+      "thickness_figure4_est_m": 20.5,
+      "thickness_table1_m": 20.0,
+      "top_depth_unrounded_digitization_m": 10.65824098221795,
+      "top_pick_y_px": 164.5978239751314,
+      "data_note": ""
+    },
+    {
+      "site": "11",
+      "year": 2016,
+      "D_km": 1.69,
+      "x_m": 1690.0,
+      "surface_elevation_m_asl": 1538.0,
+      "top_depth_est_m": 15.5,
+      "base_depth_est_m": 24.0,
+      "top_elevation_est_m_asl": 1522.5,
+      "base_elevation_est_m_asl": 1514.0,
+      "thickness_figure4_est_m": 8.5,
+      "thickness_table1_m": 8.0,
+      "top_depth_unrounded_digitization_m": 15.532552723332694,
+      "top_pick_y_px": 209.88995863524588,
+      "data_note": ""
+    },
+    {
+      "site": "10 (a)",
+      "year": 2016,
+      "D_km": 3.24,
+      "x_m": 3240.0,
+      "surface_elevation_m_asl": 1560.0,
+      "top_depth_est_m": 19.5,
+      "base_depth_est_m": 25.5,
+      "top_elevation_est_m_asl": 1540.5,
+      "base_elevation_est_m_asl": 1534.5,
+      "thickness_figure4_est_m": 6.0,
+      "thickness_table1_m": 6.0,
+      "top_depth_unrounded_digitization_m": 19.66598211614756,
+      "top_pick_y_px": 250.30550173562463,
+      "data_note": ""
+    },
+    {
+      "site": "8 (a)",
+      "year": 2016,
+      "D_km": 5.2,
+      "x_m": 5200.0,
+      "surface_elevation_m_asl": 1618.0,
+      "top_depth_est_m": 19.5,
+      "base_depth_est_m": 28.0,
+      "top_elevation_est_m_asl": 1598.5,
+      "base_elevation_est_m_asl": 1590.0,
+      "thickness_figure4_est_m": 8.5,
+      "thickness_table1_m": 8.0,
+      "top_depth_unrounded_digitization_m": 19.26078264040911,
+      "top_pick_y_px": 254.97051852850967,
+      "data_note": ""
+    },
+    {
+      "site": "7",
+      "year": 2016,
+      "D_km": 7.5,
+      "x_m": 7500.0,
+      "surface_elevation_m_asl": 1647.0,
+      "top_depth_est_m": 19.0,
+      "base_depth_est_m": 27.0,
+      "top_elevation_est_m_asl": 1628.0,
+      "base_elevation_est_m_asl": 1620.0,
+      "thickness_figure4_est_m": 8.0,
+      "thickness_table1_m": 8.0,
+      "top_depth_unrounded_digitization_m": 18.888638003001205,
+      "top_pick_y_px": 261.24107402143824,
+      "data_note": ""
+    },
+    {
+      "site": "6 (b)",
+      "year": 2016,
+      "D_km": 8.37,
+      "x_m": 8370.0,
+      "surface_elevation_m_asl": 1661.0,
+      "top_depth_est_m": 17.0,
+      "base_depth_est_m": 27.5,
+      "top_elevation_est_m_asl": 1644.0,
+      "base_elevation_est_m_asl": 1633.5,
+      "thickness_figure4_est_m": 10.5,
+      "thickness_table1_m": 11.0,
+      "top_depth_unrounded_digitization_m": 16.793576740178924,
+      "top_pick_y_px": 247.43934006326108,
+      "data_note": ""
+    },
+    {
+      "site": "5",
+      "year": 2016,
+      "D_km": 10.94,
+      "x_m": 10940.0,
+      "surface_elevation_m_asl": 1691.0,
+      "top_depth_est_m": 17.0,
+      "base_depth_est_m": 25.5,
+      "top_elevation_est_m_asl": 1674.0,
+      "base_elevation_est_m_asl": 1665.5,
+      "thickness_figure4_est_m": 8.5,
+      "thickness_table1_m": 17.0,
+      "top_depth_unrounded_digitization_m": 16.769868722896202,
+      "top_pick_y_px": 257.8560810453596,
+      "data_note": "Table 1 H=17 m conflicts with plotted top/base separation (~9 m); verify before using H to set the top."
+    },
+    {
+      "site": "4",
+      "year": 2016,
+      "D_km": 12.63,
+      "x_m": 12630.0,
+      "surface_elevation_m_asl": 1710.0,
+      "top_depth_est_m": 20.0,
+      "base_depth_est_m": 29.5,
+      "top_elevation_est_m_asl": 1690.0,
+      "base_elevation_est_m_asl": 1680.5,
+      "thickness_figure4_est_m": 9.5,
+      "thickness_table1_m": 9.0,
+      "top_depth_unrounded_digitization_m": 20.051419767914442,
+      "top_pick_y_px": 291.59236394401114,
+      "data_note": ""
+    },
+    {
+      "site": "3",
+      "year": 2016,
+      "D_km": 13.99,
+      "x_m": 13990.0,
+      "surface_elevation_m_asl": 1711.0,
+      "top_depth_est_m": 17.5,
+      "base_depth_est_m": 30.5,
+      "top_elevation_est_m_asl": 1693.5,
+      "base_elevation_est_m_asl": 1680.5,
+      "thickness_figure4_est_m": 13.0,
+      "thickness_table1_m": 13.0,
+      "top_depth_unrounded_digitization_m": 17.400190739765822,
+      "top_pick_y_px": 275.4346740452098,
+      "data_note": ""
+    },
+    {
+      "site": "2 (a)",
+      "year": 2016,
+      "D_km": 16.27,
+      "x_m": 16270.0,
+      "surface_elevation_m_asl": 1755.0,
+      "top_depth_est_m": 20.0,
+      "base_depth_est_m": 29.0,
+      "top_elevation_est_m_asl": 1735.0,
+      "base_elevation_est_m_asl": 1726.0,
+      "thickness_figure4_est_m": 9.0,
+      "thickness_table1_m": 9.0,
+      "top_depth_unrounded_digitization_m": 19.86078214290099,
+      "top_pick_y_px": 305.02416594003404,
+      "data_note": ""
+    },
+    {
+      "site": "1",
+      "year": 2016,
+      "D_km": 18.35,
+      "x_m": 18350.0,
+      "surface_elevation_m_asl": 1770.0,
+      "top_depth_est_m": 22.5,
+      "base_depth_est_m": 28.5,
+      "top_elevation_est_m_asl": 1747.5,
+      "base_elevation_est_m_asl": 1741.5,
+      "thickness_figure4_est_m": 6.0,
+      "thickness_table1_m": 6.0,
+      "top_depth_unrounded_digitization_m": 22.572002681847913,
+      "top_pick_y_px": 335.95454770398396,
+      "data_note": ""
+    }
+  ]
+}

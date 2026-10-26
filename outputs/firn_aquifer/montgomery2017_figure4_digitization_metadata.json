@@ -1,0 +1,493 @@
+{
+  "records": [
+    {
+      "site": "12 (a)",
+      "figure4_site_label": "12",
+      "year": 2016,
+      "distance_from_site12_km": 0.41,
+      "x_m": 410.0,
+      "surface_elevation_m_asl": 1518.0,
+      "aquifer_thickness_table1_m": 20.0,
+      "base_depth_figure4_est_m": 31.0,
+      "base_elevation_est_m_asl": 1487.0,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    },
+    {
+      "site": "11",
+      "figure4_site_label": "11",
+      "year": 2016,
+      "distance_from_site12_km": 1.69,
+      "x_m": 1690.0,
+      "surface_elevation_m_asl": 1538.0,
+      "aquifer_thickness_table1_m": 8.0,
+      "base_depth_figure4_est_m": 24.0,
+      "base_elevation_est_m_asl": 1514.0,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    },
+    {
+      "site": "10 (a)",
+      "figure4_site_label": "10",
+      "year": 2016,
+      "distance_from_site12_km": 3.24,
+      "x_m": 3240.0,
+      "surface_elevation_m_asl": 1560.0,
+      "aquifer_thickness_table1_m": 6.0,
+      "base_depth_figure4_est_m": 25.5,
+      "base_elevation_est_m_asl": 1534.5,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    },
+    {
+      "site": "8 (a)",
+      "figure4_site_label": "8",
+      "year": 2016,
+      "distance_from_site12_km": 5.2,
+      "x_m": 5200.0,
+      "surface_elevation_m_asl": 1618.0,
+      "aquifer_thickness_table1_m": 8.0,
+      "base_depth_figure4_est_m": 28.0,
+      "base_elevation_est_m_asl": 1590.0,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    },
+    {
+      "site": "7",
+      "figure4_site_label": "7",
+      "year": 2016,
+      "distance_from_site12_km": 7.5,
+      "x_m": 7500.0,
+      "surface_elevation_m_asl": 1647.0,
+      "aquifer_thickness_table1_m": 8.0,
+      "base_depth_figure4_est_m": 27.0,
+      "base_elevation_est_m_asl": 1620.0,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    },
+    {
+      "site": "6 (b)",
+      "figure4_site_label": "6",
+      "year": 2016,
+      "distance_from_site12_km": 8.37,
+      "x_m": 8370.0,
+      "surface_elevation_m_asl": 1661.0,
+      "aquifer_thickness_table1_m": 11.0,
+      "base_depth_figure4_est_m": 27.5,
+      "base_elevation_est_m_asl": 1633.5,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    },
+    {
+      "site": "5",
+      "figure4_site_label": "5",
+      "year": 2016,
+      "distance_from_site12_km": 10.94,
+      "x_m": 10940.0,
+      "surface_elevation_m_asl": 1691.0,
+      "aquifer_thickness_table1_m": 17.0,
+      "base_depth_figure4_est_m": 25.5,
+      "base_elevation_est_m_asl": 1665.5,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": "Table 1 H=17 m conflicts with plotted top/base separation (~9 m); verify before using H to set the top."
+    },
+    {
+      "site": "4",
+      "figure4_site_label": "4",
+      "year": 2016,
+      "distance_from_site12_km": 12.63,
+      "x_m": 12630.0,
+      "surface_elevation_m_asl": 1710.0,
+      "aquifer_thickness_table1_m": 9.0,
+      "base_depth_figure4_est_m": 29.5,
+      "base_elevation_est_m_asl": 1680.5,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    },
+    {
+      "site": "3",
+      "figure4_site_label": "3",
+      "year": 2016,
+      "distance_from_site12_km": 13.99,
+      "x_m": 13990.0,
+      "surface_elevation_m_asl": 1711.0,
+      "aquifer_thickness_table1_m": 13.0,
+      "base_depth_figure4_est_m": 30.5,
+      "base_elevation_est_m_asl": 1680.5,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    },
+    {
+      "site": "2 (a)",
+      "figure4_site_label": "2",
+      "year": 2016,
+      "distance_from_site12_km": 16.27,
+      "x_m": 16270.0,
+      "surface_elevation_m_asl": 1755.0,
+      "aquifer_thickness_table1_m": 9.0,
+      "base_depth_figure4_est_m": 29.0,
+      "base_elevation_est_m_asl": 1726.0,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    },
+    {
+      "site": "1",
+      "figure4_site_label": "1",
+      "year": 2016,
+      "distance_from_site12_km": 18.35,
+      "x_m": 18350.0,
+      "surface_elevation_m_asl": 1770.0,
+      "aquifer_thickness_table1_m": 6.0,
+      "base_depth_figure4_est_m": 28.5,
+      "base_elevation_est_m_asl": 1741.5,
+      "digitization_rounding_increment_m": 0.5,
+      "notes": ""
+    }
+  ],
+  "notes": [
+    [
+      "Source",
+      "Montgomery et al. (2017), Figure 4 and Table 1, p. 6. DOI: 10.3389/feart.2017.00010"
+    ],
+    [
+      "Scope",
+      "11 profiles from 2016; site suffixes are matched to the 2016 rows of Table 1."
+    ],
+    [
+      "Boundary",
+      "Lower dashed boundary identified as the aquifer base in the Figure 4 caption."
+    ],
+    [
+      "Vertical scale",
+      "0-50 m labeled depth axis; local zero-depth surface offsets are accounted for."
+    ],
+    [
+      "Reference",
+      "Each profile uses its thin vertical reference line; nearby visible dashed segments are extended to that line."
+    ],
+    [
+      "Digitization",
+      "Line-pixel fits in the original 1547 x 659 embedded image; averaged incoming/outgoing line fits where available."
+    ],
+    [
+      "Precision",
+      "Depths are approximate graph readings, rounded to 0.5 m. This is a reporting increment, not a measurement uncertainty."
+    ],
+    [
+      "Scientific errors",
+      "Original geophysical and surface-elevation uncertainties are not propagated; consult the paper and Table 1."
+    ],
+    [
+      "Horizontal coordinate",
+      "x=1000 D (m); D is the published distance from Site 12. No latitude/longitude projection is used."
+    ],
+    [
+      "Elevation",
+      "Estimated base elevation = Table 1 surface elevation E - estimated base depth. Elevation datum follows Table 1."
+    ],
+    [
+      "Coverage",
+      "Observed 2016 points span D=0.41 to 18.35 km. No interpolation or extrapolation along the transect."
+    ],
+    [
+      "Figure 5 check",
+      "Figure 4 unrounded readings agree within 1 m with independently read 2016 base markers in Figure 5B."
+    ],
+    [
+      "Site 5 discrepancy",
+      "Table 1 gives H=17 m; Figures 4 and 5 indicate a top/base separation of about 9 m. H is retained as published."
+    ],
+    [
+      "Top boundary",
+      "No aquifer-top elevations are generated, to avoid silently resolving the Site 5 discrepancy."
+    ]
+  ],
+  "audit": [
+    {
+      "site": "1",
+      "reference_x_px": 97,
+      "surface_y_px": 150.14299044342113,
+      "base_y_px": 383.81914525906035,
+      "unrounded_depth_m": 28.386494742014627,
+      "figure5B_crosscheck_depth_m": 28.492462311557787,
+      "crosscheck_difference_m": -0.10596756954316078,
+      "segments": [
+        "1-2"
+      ]
+    },
+    {
+      "site": "2 (a)",
+      "reference_x_px": 252,
+      "surface_y_px": 141.53123576450517,
+      "base_y_px": 379.50787502186904,
+      "unrounded_depth_m": 28.90890867461911,
+      "figure5B_crosscheck_depth_m": 28.94472361809045,
+      "crosscheck_difference_m": -0.0358149434713404,
+      "segments": [
+        "1-2",
+        "2-3"
+      ]
+    },
+    {
+      "site": "3",
+      "reference_x_px": 420,
+      "surface_y_px": 132.19720488671237,
+      "base_y_px": 381.80635595664603,
+      "unrounded_depth_m": 30.32200208872657,
+      "figure5B_crosscheck_depth_m": 30.37688442211055,
+      "crosscheck_difference_m": -0.05488233338397919,
+      "segments": [
+        "2-3",
+        "3-4"
+      ]
+    },
+    {
+      "site": "4",
+      "reference_x_px": 522,
+      "surface_y_px": 126.53011471090961,
+      "base_y_px": 368.2180272378016,
+      "unrounded_depth_m": 29.359746455798604,
+      "figure5B_crosscheck_depth_m": 29.472361809045225,
+      "crosscheck_difference_m": -0.1126153532466212,
+      "segments": [
+        "3-4",
+        "4-5"
+      ]
+    },
+    {
+      "site": "5",
+      "reference_x_px": 643,
+      "surface_y_px": 119.80739009059457,
+      "base_y_px": 330.86489962142326,
+      "unrounded_depth_m": 25.63882861426903,
+      "figure5B_crosscheck_depth_m": 25.703517587939697,
+      "crosscheck_difference_m": -0.06468897367066617,
+      "segments": [
+        "4-5",
+        "5-6"
+      ]
+    },
+    {
+      "site": "6 (b)",
+      "reference_x_px": 834,
+      "surface_y_px": 109.19548593786585,
+      "base_y_px": 335.88019581888085,
+      "unrounded_depth_m": 27.537188508640604,
+      "figure5B_crosscheck_depth_m": 27.51256281407035,
+      "crosscheck_difference_m": 0.024625694570254097,
+      "segments": [
+        "5-6"
+      ]
+    },
+    {
+      "site": "7",
+      "reference_x_px": 896,
+      "surface_y_px": 105.75078406629947,
+      "base_y_px": 328.4791697862775,
+      "unrounded_depth_m": 27.05658245329197,
+      "figure5B_crosscheck_depth_m": 27.135678391959797,
+      "crosscheck_difference_m": -0.07909593866782672,
+      "segments": [
+        "7-8"
+      ]
+    },
+    {
+      "site": "8 (a)",
+      "reference_x_px": 1064,
+      "surface_y_px": 96.41675318850668,
+      "base_y_px": 326.7745990226979,
+      "unrounded_depth_m": 27.98339344771025,
+      "figure5B_crosscheck_depth_m": 27.964824120603012,
+      "crosscheck_difference_m": 0.01856932710723669,
+      "segments": [
+        "7-8",
+        "8-10"
+      ]
+    },
+    {
+      "site": "10 (a)",
+      "reference_x_px": 1208,
+      "surface_y_px": 88.41615529325571,
+      "base_y_px": 299.571153046724,
+      "unrounded_depth_m": 25.650671281406165,
+      "figure5B_crosscheck_depth_m": 25.703517587939697,
+      "crosscheck_difference_m": -0.05284630653353162,
+      "segments": [
+        "8-10",
+        "10-11"
+      ]
+    },
+    {
+      "site": "11",
+      "reference_x_px": 1323,
+      "surface_y_px": 82.02678891857613,
+      "base_y_px": 277.7682702896477,
+      "unrounded_depth_m": 23.778269272351977,
+      "figure5B_crosscheck_depth_m": 23.819095477386934,
+      "crosscheck_difference_m": -0.04082620503495704,
+      "segments": [
+        "10-11",
+        "11-12"
+      ]
+    },
+    {
+      "site": "12 (a)",
+      "reference_x_px": 1416,
+      "surface_y_px": 76.85973611122654,
+      "base_y_px": 330.9249003780523,
+      "unrounded_depth_m": 30.86330933200829,
+      "figure5B_crosscheck_depth_m": 30.753768844221103,
+      "crosscheck_difference_m": 0.10954048778718573,
+      "segments": [
+        "11-12"
+      ]
+    }
+  ],
+  "calibration": {
+    "pixels_per_m": 8.231948218311611,
+    "ticks": [
+      [
+        0,
+        150.00619420659498
+      ],
+      [
+        5,
+        191.19863013698622
+      ],
+      [
+        10,
+        232.4681127419145
+      ],
+      [
+        15,
+        273.5228228228228
+      ],
+      [
+        20,
+        314.685520361991
+      ],
+      [
+        25,
+        355.9461187214612
+      ],
+      [
+        30,
+        397.16877506942313
+      ],
+      [
+        35,
+        438.26780626780624
+      ],
+      [
+        40,
+        479.2133526850507
+      ],
+      [
+        45,
+        520.4883720930233
+      ],
+      [
+        50,
+        561.6469163706812
+      ]
+    ],
+    "surface_fit": [
+      -0.05555970760590947,
+      155.53228208119435
+    ],
+    "dashed_segment_boxes": {
+      "1-2": [
+        170,
+        245,
+        370,
+        395
+      ],
+      "2-3": [
+        325,
+        410,
+        370,
+        390
+      ],
+      "3-4": [
+        495,
+        516,
+        365,
+        390
+      ],
+      "4-5": [
+        600,
+        635,
+        330,
+        355
+      ],
+      "5-6": [
+        730,
+        825,
+        325,
+        345
+      ],
+      "7-8": [
+        980,
+        1055,
+        320,
+        338
+      ],
+      "8-10": [
+        1140,
+        1200,
+        290,
+        320
+      ],
+      "10-11": [
+        1285,
+        1315,
+        270,
+        295
+      ],
+      "11-12": [
+        1398,
+        1413,
+        310,
+        340
+      ]
+    },
+    "segment_fits": {
+      "1-2": [
+        -0.026413590432567476,
+        386.3812635310194
+      ],
+      "2-3": [
+        0.016376588651856407,
+        375.16381096145795
+      ],
+      "3-4": [
+        -0.12926628194558692,
+        435.8625721352009
+      ],
+      "4-5": [
+        -0.30770425598011936,
+        528.6721031376211
+      ],
+      "5-6": [
+        0.026013943028474516,
+        314.1845673331331
+      ],
+      "7-8": [
+        -0.008900526575540295,
+        336.45404159796163
+      ],
+      "8-10": [
+        -0.1873536741344589,
+        525.9096260028732
+      ],
+      "10-11": [
+        -0.18966610647810714,
+        528.6725750705546
+      ],
+      "11-12": [
+        0.5713190967610285,
+        -478.0629406355641
+      ]
+    }
+  }
+}

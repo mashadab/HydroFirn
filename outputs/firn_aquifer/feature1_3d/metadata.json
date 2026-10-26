@@ -1,0 +1,126 @@
+{
+  "title": "Helheim Feature I, supported 3D reconstruction",
+  "survey_period": "2012-2014 composite, not a single-date snapshot",
+  "reconstruction_date": "2026-10-25",
+  "source_root": "/Users/ms6985/Desktop/Research_new/CFA3D_Application/Realistic_data",
+  "source_manifest": [
+    {
+      "path": "/Users/ms6985/Desktop/Research_new/CFA3D_Application/Realistic_data/Chu_et_al_2018/grl58203-sup-0002-2018gl079751_s01.xlsx",
+      "sha256": "a605b0a870b2f8e67ead89e0d54d02f03f0bf2ac7f38b1217213731dd68b3b9b"
+    },
+    {
+      "path": "/Users/ms6985/Desktop/Research_new/CFA3D_Application/Realistic_data/MiegeFirnAquiferDetections2012.csv",
+      "sha256": "74bae86d53b1bf84d3f1ee61e44c5afbf031e70ca7288fc79b3091ca8605f998"
+    },
+    {
+      "path": "/Users/ms6985/Desktop/Research_new/CFA3D_Application/Realistic_data/MiegeFirnAquiferDetections2014.csv",
+      "sha256": "72d6163a2c0f890d98b6f1f60d282d10b7a973baadd85a35381e2a62fe8b0eea"
+    }
+  ],
+  "citations": {
+    "thickness": "https://doi.org/10.1029/2018GL079751",
+    "water_table": "https://doi.org/10.1002/2016JF003869",
+    "water_table_dataset": "https://doi.org/10.18739/A2TM72225"
+  },
+  "chu_worksheet": "aq_hw_f1",
+  "chu_raw_points": 4578,
+  "chu_unique_positions": 4578,
+  "miege_years": [
+    2012,
+    2014
+  ],
+  "miege_selected_points": 1104,
+  "miege_unique_positions": 1104,
+  "miege_selected_by_year": {
+    "2012": 393,
+    "2014": 711
+  },
+  "miege_global_rejected_nonfinite_or_nonpositive_depth": 164,
+  "horizontal_crs": "EPSG:32624, WGS84 / UTM zone 24N",
+  "local_origin_utm_easting_northing_m": [
+    462000.0,
+    7313000.0
+  ],
+  "axes": "x east, y north, z up; metres. Add origin to x/y for absolute UTM.",
+  "vertical_reference": "WGS84 ellipsoid, inherited from GIMP; no geoid correction or fitted elevation shift",
+  "surface_DEM": {
+    "path": "/Users/ms6985/Desktop/Research_new/meltwater-percolation/Infiltration/JPL/Greenland_surface_elevation/combined_greenland_tif.vrt",
+    "product": "NASA GIMP 30 m mosaic",
+    "nominal_epoch": 2007,
+    "crs": "EPSG:3413",
+    "posting_m": [
+      30.0,
+      30.0
+    ],
+    "nodata": -9999.0
+  },
+  "equations": [
+    "z_top = GIMP_surface - interpolated_water_table_depth",
+    "z_base = z_top - interpolated_Chu_thickness"
+  ],
+  "interpolation": "Piecewise linear Delaunay in projected metre coordinates; no extrapolation. Exact duplicate positions use median.",
+  "support": {
+    "maximum_distance_to_each_source_m": 5000.0,
+    "maximum_triangle_edge_in_each_source_m": 10000.0,
+    "water_table_source_prefilter_distance_to_Chu_m": 15000.0,
+    "mesh_minimum_thickness_at_all_four_cell_corners_m": 3.9,
+    "all_four_cell_corners_must_be_supported": true
+  },
+  "mesh": {
+    "method": "Two planar triangles per grid quad, vertically extruded into six-node wedges",
+    "sigma_layers": 6,
+    "diagonal_only_contacts": "Vertex fans separated without deleting cells",
+    "boundaries": "Side walls close the reconstruction cuts, not measured aquifer margins"
+  },
+  "limitations": [
+    "Thickness workbook contains latitude, longitude and thickness only; individual acquisition years cannot be recovered from this file.",
+    "2012 and 2014 water-table depths are combined; the result is a composite hypothetical state rather than an observed instantaneous volume.",
+    "GIMP has nominal 2007 epoch; no epoch correction is applied to anchor the 2012-2014 relative depths.",
+    "Between-track surfaces are interpolation assumptions. Nearest-source distance is a support diagnostic, not statistical uncertainty.",
+    "3.9 m is a study-wide average thickness uncertainty used as a screening/sensitivity scale, not a local error model or confidence bound.",
+    "Unrepresented areas remain unspecified. This is a supported subset, not a reconstruction of the published full Feature I footprint.",
+    "The broad Mi\u00e8ge 2010-2014 KML polygon is not a Feature I boundary and is not used to force the footprint.",
+    "Montgomery 2015-2016 measurements are not imposed on this earlier composite geometry.",
+    "No liquid volume, porosity, permeability, temperature, recharge, boundary conditions or transient simulation is assigned."
+  ],
+  "summary": {
+    "mesh_area_km2": 43.25,
+    "mesh_volume_km3": 0.2919054402228525,
+    "bulk_volume_sensitivity_H_minus_3p9_km3": 0.12323044022285247,
+    "bulk_volume_sensitivity_H_plus_3p9_km3": 0.4605804402228525,
+    "volume_interpretation": "Bulk aquifer material volume, includes firn ice; not liquid-water storage. Sensitivity is not a confidence interval.",
+    "horizontal_cells": 692,
+    "volume_wedges": 8304,
+    "volume_vertices": 6881,
+    "connected_components": 14,
+    "component_areas_km2_descending": [
+      25.0625,
+      9.9375,
+      3.3125,
+      2.25,
+      1.6875,
+      0.1875,
+      0.1875,
+      0.1875,
+      0.125,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625,
+      0.0625
+    ],
+    "triangles_per_surface": 1384,
+    "mesh_thickness_range_m": [
+      3.906672169333433,
+      23.456540985987203
+    ],
+    "grid_shape_y_x": [
+      191,
+      139
+    ],
+    "grid_spacing_m": 250.0,
+    "supported_node_count": 2350,
+    "total_node_count": 26549,
+    "spatial_resolution_note": "Grid sampling only; between-track observational resolution is much coarser."
+  }
+}

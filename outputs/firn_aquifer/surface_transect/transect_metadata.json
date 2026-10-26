@@ -1,0 +1,235 @@
+{
+  "DEM_file": "/Users/ms6985/Desktop/Research_new/meltwater-percolation/Infiltration/JPL/Greenland_surface_elevation/combined_greenland_tif.vrt",
+  "DEM_product": "NASA GIMP 30 m local mosaic",
+  "DEM_CRS": "EPSG:3413",
+  "DEM_posting_m": [
+    30.0,
+    30.0
+  ],
+  "vertical_reference": "height above WGS84 ellipsoid; no geoid correction applied",
+  "nominal_DEM_epoch": 2007,
+  "documentation": "https://byrd.osu.edu/research/groups/glacier-dynamics/data/gimpdem",
+  "survey_source": "Montgomery et al. (2017), Table 1, 2016 sites; DOI 10.3389/feart.2017.00010",
+  "alignment_method": "UTM 24N least-squares direction through Site 12(a); normalized to unit length, preserving published D",
+  "local_alignment_CRS": "EPSG:32624",
+  "anchor_site": "12 (a)",
+  "anchor_D_km": 0.41,
+  "nominal_D0_longitude": -39.12189370206303,
+  "nominal_D0_latitude": 66.35160280148357,
+  "downglacier_azimuth_deg": 96.20349436194371,
+  "fitted_scale_before_normalization": 1.0040750952296498,
+  "cross_track_RMS_m": 114.9944391075978,
+  "coordinate_fit_RMS_m": 122.76425940957111,
+  "extension_km": 20.0,
+  "D_range_km": [
+    -20.0,
+    18.35
+  ],
+  "sampling_spacing_target_m": 30.0,
+  "sample_count": 1286,
+  "valid_sample_count": 1286,
+  "surface_at_nominal_D0_ellipsoid_m": 1520.3937845606956,
+  "surface_at_extension_endpoint_ellipsoid_m": 1038.883321551822,
+  "extension_minimum_surface_ellipsoid_m": 1038.883321551822,
+  "extension_minimum_D_km": -20.0,
+  "station_DEM_minus_table_E_mean_m": 1.0539353947528154,
+  "station_DEM_minus_table_E_RMS_m": 1.397429826474191,
+  "station_DEM_minus_table_E_max_abs_m": 3.2497314484453454,
+  "interpretation": [
+    "This is a straight continuation of the survey alignment, not a traced ice-flow path.",
+    "Negative D extends beyond nominal Site 12, positive D points inland.",
+    "Published station coordinates have 0.001-degree precision and are not exactly collinear; residuals are exported.",
+    "The GIMP DEM has nominal 2007 epoch; the survey is from 2016. No epoch or vertical-datum shift is fitted.",
+    "The base continues surface-parallel below Site 12(a); aquifer top is filled only to D = 0 at constant Site 12(a) thickness."
+  ],
+  "base_model": {
+    "equation": "z_base(D) = z_base_anchor + z_surface_DEM(D) - z_surface_DEM(anchor), D < anchor",
+    "assumption": "Constant surface-to-base separation; base has the same local slope as the DEM surface.",
+    "source_geometry_file": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/montgomery2016_geometry_stations.json",
+    "anchor_site": "12 (a)",
+    "anchor_D_km": 0.41,
+    "anchor_base_elevation_m_as_reported": 1487.0,
+    "anchor_surface_DEM_ellipsoid_m": 1520.0526167434102,
+    "anchor_surface_table1_m_as_reported": 1518.0,
+    "anchor_published_figure4_base_depth_m": 31.0,
+    "effective_constant_depth_below_DEM_m": 33.052616743410226,
+    "anchor_DEM_minus_reported_surface_m": 2.0526167434102263,
+    "assumed_base_at_extension_endpoint_m": 1005.8307048084118,
+    "observed_base_stations": [
+      {
+        "site": "12 (a)",
+        "D_km": 0.41,
+        "base_elevation_m": 1487.0
+      },
+      {
+        "site": "11",
+        "D_km": 1.69,
+        "base_elevation_m": 1514.0
+      },
+      {
+        "site": "10 (a)",
+        "D_km": 3.24,
+        "base_elevation_m": 1534.5
+      },
+      {
+        "site": "8 (a)",
+        "D_km": 5.2,
+        "base_elevation_m": 1590.0
+      },
+      {
+        "site": "7",
+        "D_km": 7.5,
+        "base_elevation_m": 1620.0
+      },
+      {
+        "site": "6 (b)",
+        "D_km": 8.37,
+        "base_elevation_m": 1633.5
+      },
+      {
+        "site": "5",
+        "D_km": 10.94,
+        "base_elevation_m": 1665.5
+      },
+      {
+        "site": "4",
+        "D_km": 12.63,
+        "base_elevation_m": 1680.5
+      },
+      {
+        "site": "3",
+        "D_km": 13.99,
+        "base_elevation_m": 1680.5
+      },
+      {
+        "site": "2 (a)",
+        "D_km": 16.27,
+        "base_elevation_m": 1726.0
+      },
+      {
+        "site": "1",
+        "D_km": 18.35,
+        "base_elevation_m": 1741.5
+      }
+    ],
+    "notes": [
+      "The constant DEM-to-base separation includes the DEM/Table 1 surface difference at the anchor.",
+      "This preserves the extracted base elevation and makes the join continuous.",
+      "The assumed segment includes the 0 to 0.41 km gap between nominal Site 12 and Site 12(a).",
+      "Aquifer top is gap-filled only to D = 0; saturated thickness is unspecified for D < 0."
+    ]
+  },
+  "aquifer_model": {
+    "source_geometry_file": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/montgomery2016_geometry_stations.json",
+    "D_range_km": [
+      0.0,
+      18.35
+    ],
+    "top_method": "Linear interpolation of extracted Figure 4 top elevations between stations.",
+    "gap_D_range_km": [
+      0.0,
+      0.41
+    ],
+    "gap_method": "Top parallels the surface-parallel base with constant Site 12(a) thickness.",
+    "gap_thickness_m": 20.5,
+    "height_coordinate": "height = elevation - local model base elevation; base = 0 m",
+    "observed_stations": [
+      {
+        "site": "12 (a)",
+        "D_km": 0.41,
+        "surface_elevation_m": 1518.0,
+        "top_elevation_m": 1507.5,
+        "base_elevation_m": 1487.0,
+        "thickness_m": 20.5
+      },
+      {
+        "site": "11",
+        "D_km": 1.69,
+        "surface_elevation_m": 1538.0,
+        "top_elevation_m": 1522.5,
+        "base_elevation_m": 1514.0,
+        "thickness_m": 8.5
+      },
+      {
+        "site": "10 (a)",
+        "D_km": 3.24,
+        "surface_elevation_m": 1560.0,
+        "top_elevation_m": 1540.5,
+        "base_elevation_m": 1534.5,
+        "thickness_m": 6.0
+      },
+      {
+        "site": "8 (a)",
+        "D_km": 5.2,
+        "surface_elevation_m": 1618.0,
+        "top_elevation_m": 1598.5,
+        "base_elevation_m": 1590.0,
+        "thickness_m": 8.5
+      },
+      {
+        "site": "7",
+        "D_km": 7.5,
+        "surface_elevation_m": 1647.0,
+        "top_elevation_m": 1628.0,
+        "base_elevation_m": 1620.0,
+        "thickness_m": 8.0
+      },
+      {
+        "site": "6 (b)",
+        "D_km": 8.37,
+        "surface_elevation_m": 1661.0,
+        "top_elevation_m": 1644.0,
+        "base_elevation_m": 1633.5,
+        "thickness_m": 10.5
+      },
+      {
+        "site": "5",
+        "D_km": 10.94,
+        "surface_elevation_m": 1691.0,
+        "top_elevation_m": 1674.0,
+        "base_elevation_m": 1665.5,
+        "thickness_m": 8.5
+      },
+      {
+        "site": "4",
+        "D_km": 12.63,
+        "surface_elevation_m": 1710.0,
+        "top_elevation_m": 1690.0,
+        "base_elevation_m": 1680.5,
+        "thickness_m": 9.5
+      },
+      {
+        "site": "3",
+        "D_km": 13.99,
+        "surface_elevation_m": 1711.0,
+        "top_elevation_m": 1693.5,
+        "base_elevation_m": 1680.5,
+        "thickness_m": 13.0
+      },
+      {
+        "site": "2 (a)",
+        "D_km": 16.27,
+        "surface_elevation_m": 1755.0,
+        "top_elevation_m": 1735.0,
+        "base_elevation_m": 1726.0,
+        "thickness_m": 9.0
+      },
+      {
+        "site": "1",
+        "D_km": 18.35,
+        "surface_elevation_m": 1770.0,
+        "top_elevation_m": 1747.5,
+        "base_elevation_m": 1741.5,
+        "thickness_m": 6.0
+      }
+    ],
+    "notes": [
+      "Top and base depths are graphical estimates rounded to 0.5 m, not exact field measurements.",
+      "Use Figure 4 top and base consistently. Retain Table 1 H=17 m separately; do not substitute it for the graphical thickness.",
+      "Top and base are preserved in the source elevation convention; DEM heights are not datum corrected.",
+      "The 410 m gap to D = 0 is assumed, not observed.",
+      "Aquifer geometry is undefined for D < 0; this does not establish its physical absence.",
+      "Panel c subtracts the same local base from every elevation in panel b."
+    ]
+  }
+}

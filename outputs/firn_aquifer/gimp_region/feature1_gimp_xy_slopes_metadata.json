@@ -1,0 +1,56 @@
+{
+  "source": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_gimp_surface_30m.tif",
+  "source_sha256": "76769fc3fc28091e35415c39332970de924fa02d4581fe432d70e4ca5d5049a7",
+  "output": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/gimp_region/feature1_gimp_xy_slopes_degrees.tif",
+  "crs": "EPSG:32624",
+  "grid_spacing_m": [
+    30.0,
+    30.0
+  ],
+  "formulas": {
+    "x": "degrees(atan(dz/dx))",
+    "y": "degrees(atan(dz/dy))"
+  },
+  "coordinate_directions": {
+    "x": "UTM grid east",
+    "y": "UTM grid north"
+  },
+  "angle_sign": "positive when elevation rises toward increasing coordinate",
+  "method": "Second-order centered finite differences over 60 m; no smoothing; one-pixel exterior rim left nodata",
+  "input_elevation_reference": "WGS84 ellipsoid",
+  "nominal_dem_epoch": 2007,
+  "full_extent_utm_m": [
+    457530.0,
+    7308870.0,
+    501780.0,
+    7366230.0
+  ],
+  "valid_pixel_count": 2813430,
+  "excluded_pixel_count": 6770,
+  "x_slope_degrees": {
+    "min": -4.1270680680029175,
+    "max": 2.2727102140980633,
+    "mean": -0.3908535348741644,
+    "median": -0.30785460918916263,
+    "p05": -1.3717498180046777,
+    "p95": 0.3209098949918176
+  },
+  "y_slope_degrees": {
+    "min": -3.3126794067776566,
+    "max": 3.6000212190868437,
+    "mean": 0.3341587099396943,
+    "median": 0.3345479704443257,
+    "p05": -0.4772206563669585,
+    "p95": 1.2547764974476205
+  },
+  "display_symmetric_limit_degrees": 3.0,
+  "x_fraction_color_saturated": 0.0008526958196933992,
+  "y_fraction_color_saturated": 0.00017096568956753857,
+  "export_values_clipped": false,
+  "validation": {
+    "known_minus3_degree_east_plus2_degree_north_plane": "passed",
+    "independent_actual_DEM_central_differences": "passed",
+    "outer_rim_is_nodata": "passed",
+    "saved_two_band_raster_values_and_georeferencing": "passed"
+  }
+}

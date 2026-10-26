@@ -1,0 +1,50 @@
+{
+  "region": "Full Chu Dataset S1 Feature I observation extent and 2016 seismic stations, plus 5 km buffer",
+  "source": "/Users/ms6985/Desktop/Research_new/meltwater-percolation/Infiltration/JPL/Greenland_surface_elevation/combined_greenland_tif.vrt",
+  "source_crs": "EPSG:3413",
+  "output_crs": "EPSG:32624",
+  "vertical_reference": "Metres above WGS84 ellipsoid; no geoid correction",
+  "nominal_dem_epoch": 2007,
+  "documentation": "https://nsidc.org/data/nsidc-0645/versions/1",
+  "bounds_utm_m": {
+    "west": 457530.0,
+    "east": 501780.0,
+    "south": 7308870.0,
+    "north": 7366230.0
+  },
+  "corner_longitude_deg": [
+    -39.93205028539911,
+    -38.960932812759104,
+    -38.96013156173487,
+    -39.951162760969964
+  ],
+  "corner_latitude_deg": [
+    65.8981234282933,
+    65.9009475233197,
+    66.41554776552624,
+    66.41265448960733
+  ],
+  "raster_shape_y_x": [
+    1912,
+    1475
+  ],
+  "grid_spacing_m": 30.0,
+  "source_posting_m": 30,
+  "resampling": "bilinear",
+  "valid_fraction": 1.0,
+  "surface_elevation_min_m": 1359.870361328125,
+  "surface_elevation_max_m": 1983.3172607421875,
+  "extent_width_km": 44.25,
+  "extent_height_km": 57.36,
+  "observation_count": 4578,
+  "seismic_station_count": 11,
+  "plot_3d_sampling_m": 240.0,
+  "default_vertical_exaggeration": 15.0,
+  "station_marker_visual_lift_m": 3,
+  "notes": [
+    "This is surface terrain, not aquifer top or base.",
+    "Survey markers are geographic references from later years, not contemporaneous 2007 observations.",
+    "The raster retains metre coordinates and true vertical scale; exaggeration applies only to display.",
+    "A 30 m grid is a posting/resampling scale, not a claim of 30 m vertical accuracy."
+  ]
+}

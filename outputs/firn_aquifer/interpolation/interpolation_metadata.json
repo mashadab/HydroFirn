@@ -1,0 +1,33 @@
+{
+  "source_transect": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/surface_transect/montgomery_surface_base_and_aquifer_transect.csv",
+  "source_geometry": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/montgomery2016_geometry_stations.json",
+  "source_citation": "Montgomery et al. (2017), Figure 4 and Table 1, p. 6; DOI 10.3389/feart.2017.00010",
+  "x_definition": "x_m = -1000 * D_km; x=0 at nominal Site 12; x increases downglacier",
+  "x_range_m": [
+    -18350.0,
+    20000.0
+  ],
+  "original_initializer_coordinate": "The earlier observed-only initializer uses x_D_m = 1000 D; this export uses the opposite sign.",
+  "interpolation": "Piecewise linear in x; no extrapolation outside the saved transect.",
+  "location": "WGS84 latitude/longitude on the fitted straight transect; not the individual off-line published station coordinates.",
+  "elevation": "Extracted base elevations retained as reported; below Site 12(a), the existing DEM-surface-parallel base is retained.",
+  "elevation_controls": "11 extracted station bases plus all saved assumed-base samples below Site 12(a), including x=0.",
+  "slope_deg": "Positive downhill with increasing x. At each internal base control, mean of adjacent segment angles; endpoints use the nearest segment. These nodal angle estimates are linearly interpolated in x.",
+  "geometric_slope_deg": "atan(-dz_base/dx), in degrees, from each straight base segment. At a knot, downstream/right-sided; final endpoint uses the last segment.",
+  "slope_note": "Slope is derived from digitized/model base elevations, not directly measured. Interpolating slope independently does not make it the exact derivative of the linearly interpolated base. Use geometric_slope_deg when exact geometric consistency is needed.",
+  "base_dz_dx": "Signed rise/run in m/m; negative for a base that descends as x increases.",
+  "aquifer_height_m": "Vertical saturated thickness, linearly interpolated between Figure 4 station thicknesses. The 410 m gap to x=0 retains 20.5 m; x>0 is exactly zero as prescribed.",
+  "aquifer_at_origin": "H(0)=20.5 m, H(x>0)=0: an explicit discontinuity with no artificial taper.",
+  "aquifer_top_elevation_m": "base_elevation_m + aquifer_height_m; coincides with base where prescribed height is zero.",
+  "gap_x_range_m": [
+    -410.0,
+    0.0
+  ],
+  "control_point_count": 692,
+  "site5_choice": "Use Figure 4 top and base consistently. Retain Table 1 H=17 m separately; do not substitute it for the graphical thickness.",
+  "precision": "Top and base depths are graphical estimates rounded to 0.5 m, not exact field measurements.",
+  "vertical_reference_note": "Existing source/DEM elevation conventions are preserved; no new geoid or epoch correction is made.",
+  "output_sample_count": 1286,
+  "grid": "regular spacing plus station points, origin and domain endpoints",
+  "target_spacing_m": 30.0
+}

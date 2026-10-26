@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "output_samples": 1286,
+  "control_points": 692,
+  "maximum_base_change_from_existing_transect_m": 2.2737367544323206e-13,
+  "maximum_height_change_for_x_le_zero_m": 2.291500322826323e-13,
+  "maximum_location_interpolation_difference_m": 0.29830737555792564,
+  "checks": [
+    "all source bases preserved",
+    "all source aquifer heights at x<=0 preserved",
+    "all survey stations included",
+    "zero aquifer height for every queried x>0",
+    "one-sided origin discontinuity",
+    "analytic linear base/location/slope recovery",
+    "10 original station-to-station slopes",
+    "geometric slope matches numerical differentiation",
+    "strict domain/finite-input validation",
+    "CSV/NPZ match API; NPZ loads without pickle"
+  ]
+}

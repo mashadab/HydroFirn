@@ -1,0 +1,41 @@
+{
+  "quantity": "Saturated thickness h, not absolute elevation or depth below the surface",
+  "equations": "h = z_water_table - z_base",
+  "period": "2012-2014 composite",
+  "source_grid": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/feature1_3d/feature1_geometry.npz",
+  "source_grid_sha256": "4d34f27b486c6c92a5edd4d584c216bc2cf2102220e4c6fdb20701019f34a7cc",
+  "source_points": "/Users/ms6985/Desktop/Research_new/HydroFirn/outputs/firn_aquifer/feature1_3d/chu_source_points.csv",
+  "source_paper": "https://doi.org/10.1029/2018GL079751",
+  "map_extent_utm_m": [
+    457530.0,
+    7308870.0,
+    501780.0,
+    7366230.0
+  ],
+  "map_crs": "EPSG:32624",
+  "same_extent_as": "feature1_gimp_xy_slopes.png",
+  "source_point_count": 4578,
+  "source_point_thickness_range_m": [
+    0.003968634,
+    36.12763282
+  ],
+  "reconstructed_area_km2": 43.25,
+  "grid_spacing_m": 250.0,
+  "reconstructed_cell_mean_thickness_range_m": [
+    4.103852821340898,
+    21.804188764006863
+  ],
+  "reconstructed_bulk_material_volume_m3": 291905440.22285247,
+  "existing_reconstruction_changed": false,
+  "missing_values": "Unspecified, not zero thickness or physical absence",
+  "raster_cell_values": "Area means of the two existing piecewise-planar mesh triangles",
+  "display_color_limits_m": [
+    0,
+    40.0
+  ],
+  "validation": {
+    "h_equals_top_minus_base": "passed",
+    "area_and_volume_match_existing_mesh": "passed",
+    "saved_values_georeferencing_and_north_up_orientation": "passed"
+  }
+}

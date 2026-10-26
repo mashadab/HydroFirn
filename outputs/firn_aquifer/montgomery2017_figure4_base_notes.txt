@@ -1,0 +1,14 @@
+Source: Montgomery et al. (2017), Figure 4 and Table 1, p. 6. DOI: 10.3389/feart.2017.00010
+Scope: 11 profiles from 2016; site suffixes are matched to the 2016 rows of Table 1.
+Boundary: Lower dashed boundary identified as the aquifer base in the Figure 4 caption.
+Vertical scale: 0-50 m labeled depth axis; local zero-depth surface offsets are accounted for.
+Reference: Each profile uses its thin vertical reference line; nearby visible dashed segments are extended to that line.
+Digitization: Line-pixel fits in the original 1547 x 659 embedded image; averaged incoming/outgoing line fits where available.
+Precision: Depths are approximate graph readings, rounded to 0.5 m. This is a reporting increment, not a measurement uncertainty.
+Scientific errors: Original geophysical and surface-elevation uncertainties are not propagated; consult the paper and Table 1.
+Horizontal coordinate: x=1000 D (m); D is the published distance from Site 12. No latitude/longitude projection is used.
+Elevation: Estimated base elevation = Table 1 surface elevation E - estimated base depth. Elevation datum follows Table 1.
+Coverage: Observed 2016 points span D=0.41 to 18.35 km. No interpolation or extrapolation along the transect.
+Figure 5 check: Figure 4 unrounded readings agree within 1 m with independently read 2016 base markers in Figure 5B.
+Site 5 discrepancy: Table 1 gives H=17 m; Figures 4 and 5 indicate a top/base separation of about 9 m. H is retained as published.
+Top boundary: No aquifer-top elevations are generated, to avoid silently resolving the Site 5 discrepancy.

@@ -1,0 +1,16 @@
+Source: Montgomery et al. (2017), Table 1, p. 6.
+DOI: https://doi.org/10.3389/feart.2017.00010
+Title: Aquifer and ice properties of seismic survey sites upstream of Helheim glacier.
+D: Relative distance from Site 12 (km), as published.
+H: Computed vertical thickness of the saturated aquifer (m).
+Err: Uncertainty in thickness (m), with published signs preserved.
+Vaq / Vice: Average aquifer / underlying ice P-wave velocity (m/s).
+Water content: Estimated water content Φ, in percent, as published.
+Footnote a: No aquifer detected by GPR measurements.
+Footnote b: Unconstrained bottom of aquifer by seismic measurements.
+Missing data: Published dashes are empty numeric cells, not zeros.
+Notation: Err +3/2 at Sites 6 (a) and 7 is retained without inferring a minus sign.
+Signs: Minus signs are normalized to ASCII in the extracted data.
+Site labels: Parenthesized letters identify nearby sites; footnotes a/b are in a separate column.
+Base depth: Not tabulated in Table 1. See Figure 5 for top and base depth profiles.
+Scope: 22 published records from 2015 and 2016. No interpolation or digitization.
